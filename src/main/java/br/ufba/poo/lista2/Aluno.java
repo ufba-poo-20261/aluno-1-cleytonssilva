@@ -23,6 +23,10 @@ public class Aluno {
         this.nome =  nome; 
     }
     
+    public boolean equals(Object a) {
+    Aluno comparaAluno = (Aluno)a;
+    return matricula.equals(comparaAluno.matricula);
+    
     
     public String getMatricula(){
         return matricula;
