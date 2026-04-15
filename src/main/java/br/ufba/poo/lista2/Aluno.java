@@ -43,7 +43,14 @@ public class Aluno {
         
     }
 
-   
-    
+    public static void main(String[] args) {
+        Aluno aluno =  new Aluno("412165","Samuel");
+        System.err.println(aluno.getMatricula());
+        
+        Aluno aluno2 = new Aluno("412165", "mateus");
+        System.err.println(aluno.equals(aluno2));
+    }
+
+         
 }
 
