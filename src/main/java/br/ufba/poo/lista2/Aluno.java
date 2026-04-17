@@ -26,7 +26,7 @@ public class Aluno {
     public boolean equals(Object a) {
     Aluno comparaAluno = (Aluno)a;
     return matricula.equals(comparaAluno.matricula);
-    
+    }
     
     public String getMatricula(){
         return matricula;
